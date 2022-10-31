@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-@Component
+@Repository
 public class MovieRepository {
     List<Movie> movies=new ArrayList<>();
     List<Director> directors=new ArrayList<>();
